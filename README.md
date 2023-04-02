@@ -4,7 +4,8 @@
 
 Got a task to create Taboola widger using their api.
 
-first I extracted the data and converted it to array of objects so i can work easier with the data
+first I extracted the data and converted it to array of objects so i can work easier with the data.
+
 Then I took the data i needed from the objects and created the widger that contains 6 artices that changes dynamically.
 
 Also added:

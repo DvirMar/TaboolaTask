@@ -1,0 +1,107 @@
+#result {
+    background-color: rgb(231, 225, 225);
+  }
+
+  ul {
+    list-style-type: none;
+    width: 108.5%;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  img {
+    width: 15em;
+    height: 10em;
+    border-radius: 0.5em;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*properties of each article*/
+  li {
+    display: inline-block;
+    margin: 2px;
+    width: 30.33%;
+    height: 270px;
+    text-align: center;
+    border-radius: 1em;
+    border-style: inherit;
+    overflow: hidden;
+  }
+
+
+  /*making the screen responsive to screen s-ize*/
+  @media screen and (max-width: 600px) {
+    li {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
+  }
+
+  /*css for the name property*/
+  p {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /*css for the branding property*/
+  .branding {
+    font-size: 0.3em;
+    font-weight: bold;
+  }
+
+  img {
+    width: 15em;
+    height: 10em;
+    border-radius: 1em;
+  }
+
+  .headerTitle {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 225, 225);
+
+  }
+
+  .headerTitle a {
+    display: flex;
+    padding-right: 1%;
+  }
+
+  .headerTitle h2 {
+    margin: 0;
+  }
+
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /*making sure the number of lines in the name  will be 3 or less*/
+  .name {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

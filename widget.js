@@ -33,7 +33,7 @@ const creatingArticle = (item) => {
 };
 
 // Function to create and display the list of items
-const createWidget = (newData) =>  {
+const createArticleList = (newData) =>  {
   const resultDiv = document.getElementById("result");
   const ul = document.createElement("ul");
 
@@ -54,7 +54,7 @@ async function getData() {
     );
     const responseData = await response.json();
     const newData = responseData.list;
-    createWidget(newData);
+    createArticleList(newData);
   } catch (error) {
     alert(error);
     console.error(error);
